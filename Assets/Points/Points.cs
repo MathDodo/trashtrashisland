@@ -8,27 +8,20 @@ public class Points : MonoBehaviour
     [SerializeField]
     private Text _uiText;
 
+    private int _points = 0;
     private float _timer = 0;
 
-    public int points = 0;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(_timer > 0)
+        if (_timer > 0)
         {
             _timer -= Time.deltaTime;
-            if(_timer <= 0)
+
+            if (_timer <= 0)
             {
-                points += 5;
+                _points += 5;
                 _timer = 1;
-                _uiText.text = points.ToString();
+                _uiText.text = _points.ToString();
             }
         }
     }
@@ -36,13 +29,12 @@ public class Points : MonoBehaviour
     public void StartPoints()
     {
         _timer = 1;
-        points += 5;
-        _uiText.text = points.ToString();
+        _points += 5;
+        _uiText.text = _points.ToString();
     }
 
-    void StopPoints()
+    public void StopPoints()
     {
         _timer = 0;
     }
-
 }
