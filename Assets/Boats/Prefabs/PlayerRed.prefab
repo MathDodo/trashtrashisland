@@ -440,7 +440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4999001752295951520
 Transform:
   m_ObjectHideFlags: 0
@@ -672,6 +672,7 @@ MonoBehaviour:
   - {fileID: 583319896451179389}
   - {fileID: 6481446427897567260}
   - {fileID: 6045866865532870634}
+  sailingAnimation: {fileID: 2874583206828885066}
 --- !u!50 &5559906348803823972
 Rigidbody2D:
   serializedVersion: 4

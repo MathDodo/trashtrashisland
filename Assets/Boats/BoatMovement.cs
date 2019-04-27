@@ -18,6 +18,7 @@ public class BoatMovement : MonoBehaviour
     public AudioClip stop;
     public AudioClip loop;
     public Transform[] childTrans;
+    public GameObject sailingAnimation;
 
     private Rigidbody2D rBody;
     private AudioSource audioSource;
@@ -74,6 +75,9 @@ public class BoatMovement : MonoBehaviour
             audioSource.loop = false;
             audioSource.Play();
         }
+
+        if(rBody.velocity.magnitude < 0.1) sailingAnimation.SetActive(false);
+        else sailingAnimation.SetActive(true);
     }
 
     private IEnumerator StartSound()
