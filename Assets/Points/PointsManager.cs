@@ -27,13 +27,15 @@ public sealed class PointsManager : MonoBehaviour
     [SerializeField]
     private List<Text> _uiTexts = new List<Text>();
 
-    private bool _roundTwo = false;
+    public bool _RoundTwo = false;
     private int[] _points = { 0, 0 };
 
     private int _activePlayer = -1;
 
     [SerializeField]
     private float _timer = 0;
+
+    private float _defaultTime = .2f;
 
     public void AddUIText(Text text)
     {
@@ -48,8 +50,12 @@ public sealed class PointsManager : MonoBehaviour
 
             if (_timer <= 0)
             {
-                _points[_activePlayer] += 5;
-                _timer = 1;
+                _points[_activePlayer] += 1;
+
+                if (_points[_activePlayer] > 999)
+                    _points[_activePlayer] = 999;
+
+                _timer = _defaultTime;
                 _uiTexts[_activePlayer].text = _points[_activePlayer].ToString();
             }
         }
@@ -63,14 +69,18 @@ public sealed class PointsManager : MonoBehaviour
     {
         if (_activePlayer == -1)
         {
-            _timer = 1;
-            _points[activePlayer] += 5;
+            _timer = _defaultTime;
+            _points[activePlayer] += 1;
+
             _uiTexts[activePlayer].text = _points[activePlayer].ToString();
             _activePlayer = activePlayer;
+
+            if (_points[_activePlayer] > 999)
+                _points[_activePlayer] = 999;
         }
-        else if (!_roundTwo)
+        else if (!_RoundTwo)
         {
-            _roundTwo = true;
+            _RoundTwo = true;
             _timer = 0;
             _activePlayer = -1;
 
