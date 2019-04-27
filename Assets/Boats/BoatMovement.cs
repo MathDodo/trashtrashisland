@@ -19,11 +19,13 @@ public class BoatMovement : MonoBehaviour
 
     private Rigidbody2D rBody;
     private AudioSource audioSource;
+    private bool sailing;
 
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        sailing = false;
     }
     
     void FixedUpdate()
@@ -46,7 +48,7 @@ public class BoatMovement : MonoBehaviour
 
         if (Input.GetKey(forward))
         {
-            rBody.AddForce(childTrans[0].right * acceleration);   
+            rBody.AddForce(childTrans[0].right * acceleration);
         }
 
         rBody.velocity = rBody.velocity * friction;
@@ -58,11 +60,13 @@ public class BoatMovement : MonoBehaviour
 
         if (Input.GetKeyDown(forward))
         {
+            sailing = true;
             StartCoroutine(StartSound());
         }
 
         if (Input.GetKeyUp(forward))
         {
+            sailing = false;
             audioSource.Stop();
             audioSource.clip = stop;
             audioSource.loop = false;
@@ -72,14 +76,15 @@ public class BoatMovement : MonoBehaviour
 
     IEnumerator StartSound()
     {
-            audioSource.clip = start;
-            audioSource.Play();
-            yield return new WaitForSeconds(1);
+        audioSource.clip = start;
+        audioSource.Play();
+        yield return new WaitForSeconds(1);
+        if (sailing)
+        {
             audioSource.Stop();
             audioSource.clip = loop;
             audioSource.loop = true;
             audioSource.Play();
+        }
     }
-    
-
 }
