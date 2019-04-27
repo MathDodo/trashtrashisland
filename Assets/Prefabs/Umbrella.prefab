@@ -406,7 +406,6 @@ GameObject:
   - component: {fileID: 6895001758822875215}
   - component: {fileID: 3437509857975507737}
   - component: {fileID: 6664794586940854595}
-  - component: {fileID: 2097544087384407922}
   m_Layer: 0
   m_Name: Umbrella
   m_TagString: Trash
@@ -477,27 +476,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.052
---- !u!50 &2097544087384407922
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7900247799770519795}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 20
-  m_LinearDrag: 0.3
-  m_AngularDrag: 0.3
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &8581689607928664510
 GameObject:
   m_ObjectHideFlags: 0
