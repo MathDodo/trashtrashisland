@@ -112,6 +112,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &357834226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5692563336903675655, guid: 520d3e01c07d88648913ff6ff7fd6c2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5964995678726237579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &357834229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357834226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269c52444bbbd154caf0538f359df70e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &478810612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -517,6 +535,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5964995679141004328, guid: 520d3e01c07d88648913ff6ff7fd6c2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692563336905898671, guid: 520d3e01c07d88648913ff6ff7fd6c2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692563336905898671, guid: 520d3e01c07d88648913ff6ff7fd6c2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692563336905898671, guid: 520d3e01c07d88648913ff6ff7fd6c2a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0

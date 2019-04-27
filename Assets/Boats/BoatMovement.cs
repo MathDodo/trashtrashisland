@@ -12,30 +12,41 @@ public class BoatMovement : MonoBehaviour
     public KeyCode left;
     public KeyCode right;
     public KeyCode forward;
-
+    public AudioClip start;
+    public AudioClip stop;
+    public AudioClip loop;
+    public Transform[] childTrans;
 
     private Rigidbody2D rBody;
-    
+    private AudioSource audioSource;
+
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
     
     void FixedUpdate()
     {
         if (Input.GetKey(left))
         {
-            transform.Rotate(new Vector3(0, 0, rotation));
+            foreach(Transform t in childTrans)
+            {
+                t.Rotate(new Vector3(0, 0, rotation));
+            }
         }
 
         if (Input.GetKey(right))
         {
-            transform.Rotate(new Vector3(0, 0, -rotation));
+            foreach (Transform t in childTrans)
+            {
+                t.Rotate(new Vector3(0, 0, -rotation));
+            }
         }
 
         if (Input.GetKey(forward))
         {
-            rBody.AddForce(transform.up * acceleration);   
+            rBody.AddForce(childTrans[0].right * acceleration);   
         }
 
         rBody.velocity = rBody.velocity * friction;
@@ -45,6 +56,29 @@ public class BoatMovement : MonoBehaviour
             rBody.velocity = rBody.velocity.normalized * maxSpeed;
         }
 
+        if (Input.GetKeyDown(forward))
+        {
+            StartCoroutine(StartSound());
+        }
+
+        if (Input.GetKeyUp(forward))
+        {
+            audioSource.Stop();
+            audioSource.clip = stop;
+            audioSource.loop = false;
+            audioSource.Play();
+        }
+    }
+
+    IEnumerator StartSound()
+    {
+            audioSource.clip = start;
+            audioSource.Play();
+            yield return new WaitForSeconds(1);
+            audioSource.Stop();
+            audioSource.clip = loop;
+            audioSource.loop = true;
+            audioSource.Play();
     }
     
 
