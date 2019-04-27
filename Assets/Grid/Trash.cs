@@ -47,12 +47,15 @@ public class Trash : MonoBehaviour
         {
             _children[i].Rotate(new Vector3(0, 0, _positiveWobble ? Time.deltaTime * _wobbleSpeed : Time.deltaTime * -_wobbleSpeed));
         }
-
-        if (_children[0].rotation.eulerAngles.z >= _startRotation + _wobbleRange || _children[0].rotation.eulerAngles.z <= _startRotation)
+        if(_children.Length > 0)
         {
-            _positiveWobble = !_positiveWobble;
-            _wobbleSpeed = _wobbleSpeedTenth * 10;
+            if (_children[0].rotation.eulerAngles.z >= _startRotation + _wobbleRange || _children[0].rotation.eulerAngles.z <= _startRotation)
+            {
+                _positiveWobble = !_positiveWobble;
+                _wobbleSpeed = _wobbleSpeedTenth * 10;
+            }
         }
+        
 
         _wobbleSpeed = Mathf.Lerp(_wobbleSpeed, _wobbleSpeedTenth, Time.deltaTime * .1f);
     }
