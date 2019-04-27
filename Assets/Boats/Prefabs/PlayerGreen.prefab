@@ -254,7 +254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4139489541828986190
 Transform:
   m_ObjectHideFlags: 0
@@ -587,6 +587,7 @@ MonoBehaviour:
   - {fileID: 623816931268112624}
   - {fileID: 7661430301865287251}
   - {fileID: 2133702391437098874}
+  sailingAnimation: {fileID: 3672867710620896971}
 --- !u!82 &791291872509682407
 AudioSource:
   m_ObjectHideFlags: 0

@@ -64,6 +64,7 @@ MonoBehaviour:
   - {fileID: 5692563336266455902}
   - {fileID: 5692563336697354924}
   - {fileID: 5692563337399535119}
+  sailingAnimation: {fileID: 1072143135052125435}
 --- !u!50 &5964995679141004330
 Rigidbody2D:
   serializedVersion: 4
@@ -264,6 +265,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6640257995873336471, guid: bbb99f690d87fec4c92b4f4e179d16b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbb99f690d87fec4c92b4f4e179d16b2, type: 3}
 --- !u!4 &5692563336905898671 stripped
@@ -275,6 +281,12 @@ Transform:
 --- !u!4 &5692563336903675654 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2145938588415797098, guid: bbb99f690d87fec4c92b4f4e179d16b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5964995677797607532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1072143135052125435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6640257995873336471, guid: bbb99f690d87fec4c92b4f4e179d16b2,
     type: 3}
   m_PrefabInstance: {fileID: 5964995677797607532}
   m_PrefabAsset: {fileID: 0}

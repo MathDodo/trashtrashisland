@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BoatMovement : MonoBehaviour
 {
+    [SerializeField]
+    private bool _green;
 
     public float acceleration;
     public float rotation;
@@ -16,23 +18,24 @@ public class BoatMovement : MonoBehaviour
     public AudioClip stop;
     public AudioClip loop;
     public Transform[] childTrans;
+    public GameObject sailingAnimation;
 
     private Rigidbody2D rBody;
     private AudioSource audioSource;
     private bool sailing;
 
-    void Start()
+    private void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
         sailing = false;
     }
-    
-    void FixedUpdate()
+
+    private void FixedUpdate()
     {
         if (Input.GetKey(left))
         {
-            foreach(Transform t in childTrans)
+            foreach (Transform t in childTrans)
             {
                 t.Rotate(new Vector3(0, 0, rotation));
             }
@@ -72,9 +75,12 @@ public class BoatMovement : MonoBehaviour
             audioSource.loop = false;
             audioSource.Play();
         }
+
+        if(rBody.velocity.magnitude < 0.1) sailingAnimation.SetActive(false);
+        else sailingAnimation.SetActive(true);
     }
 
-    IEnumerator StartSound()
+    private IEnumerator StartSound()
     {
         audioSource.clip = start;
         audioSource.Play();
@@ -85,6 +91,20 @@ public class BoatMovement : MonoBehaviour
             audioSource.clip = loop;
             audioSource.loop = true;
             audioSource.Play();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Trash"))
+        {
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Goal"))
+        {
+            PointsManager.Instance.PointCounting(_green ? 0 : 1);
+            rBody.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
 }

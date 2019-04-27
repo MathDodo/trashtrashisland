@@ -84,6 +84,7 @@ MonoBehaviour:
   - {fileID: 9212736177743947271}
   - {fileID: 7452109334077672696}
   - {fileID: 8518936549634847812}
+  sailingAnimation: {fileID: 2129562797349911402}
 --- !u!82 &1913355107512133955
 AudioSource:
   m_ObjectHideFlags: 0
@@ -247,6 +248,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: JetWaterAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a79a3ef722da5f34bba66fcf96385fb3, type: 3}
 --- !u!4 &1879709568688747194 stripped
@@ -258,6 +269,12 @@ Transform:
 --- !u!4 &997481935488605356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1928971158763076660, guid: a79a3ef722da5f34bba66fcf96385fb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1662621583470043288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2129562797349911402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
     type: 3}
   m_PrefabInstance: {fileID: 1662621583470043288}
   m_PrefabAsset: {fileID: 0}
