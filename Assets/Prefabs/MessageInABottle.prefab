@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 4685751710889136185}
   - component: {fileID: 3023644881907340415}
   - component: {fileID: 7562456389563224750}
+  - component: {fileID: 5169973404342664502}
   m_Layer: 0
   m_Name: MessageInABottle
   m_TagString: Trash
@@ -565,6 +566,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1}
   m_EdgeRadius: 0
+--- !u!114 &5169973404342664502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622830583566536711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef34d78d1211924188d3bc70589e937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8629153493785585689
 GameObject:
   m_ObjectHideFlags: 0
