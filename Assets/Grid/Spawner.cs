@@ -5,7 +5,10 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField]
-    private Trash[] _trashPrefabs;
+    private Trash[] _highChanceTrashPrefabs;
+
+    [SerializeField]
+    private Trash[] _lowChanceTrashPrefabs;
 
     [SerializeField]
     private GameObject _waterPrefab;
@@ -18,6 +21,9 @@ public class Spawner : MonoBehaviour
 
     [SerializeField]
     private BoatMovement _greenJet, _redJet;
+
+    [SerializeField, Range(.5f, .9f)]
+    private float _probability = .7f;
 
     private List<Trash> _activeTrash = new List<Trash>();
     private List<Trash> _inactiveTrash = new List<Trash>();
@@ -42,12 +48,24 @@ public class Spawner : MonoBehaviour
             {
                 if (!((x == 12 || x == 11) && (y == 7 || y == 6)))
                 {
-                    var trash = Instantiate(_trashPrefabs[UnityEngine.Random.Range(0, _trashPrefabs.Length)], _startTrashCorner + new Vector3(offset * x + UnityEngine.Random.Range(-rangeOffset, rangeOffset),
-                        offset * -y + UnityEngine.Random.Range(-rangeOffset, rangeOffset), 0), Quaternion.identity, transform);
+                    if (UnityEngine.Random.value <= _probability)
+                    {
+                        var trash = Instantiate(_highChanceTrashPrefabs[UnityEngine.Random.Range(0, _highChanceTrashPrefabs.Length)], _startTrashCorner + new Vector3(offset * x + UnityEngine.Random.Range(-rangeOffset, rangeOffset),
+                            offset * -y + UnityEngine.Random.Range(-rangeOffset, rangeOffset), 0), Quaternion.identity, transform);
 
-                    trash._Spawner = this;
+                        trash._Spawner = this;
 
-                    _activeTrash.Add(trash);
+                        _activeTrash.Add(trash);
+                    }
+                    else
+                    {
+                        var trash = Instantiate(_lowChanceTrashPrefabs[UnityEngine.Random.Range(0, _lowChanceTrashPrefabs.Length)], _startTrashCorner + new Vector3(offset * x + UnityEngine.Random.Range(-rangeOffset, rangeOffset),
+                            offset * -y + UnityEngine.Random.Range(-rangeOffset, rangeOffset), 0), Quaternion.identity, transform);
+
+                        trash._Spawner = this;
+
+                        _activeTrash.Add(trash);
+                    }
                 }
             }
         }
