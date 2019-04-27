@@ -56,4 +56,12 @@ public class Trash : MonoBehaviour
 
         _wobbleSpeed = Mathf.Lerp(_wobbleSpeed, _wobbleSpeedTenth, Time.deltaTime * .1f);
     }
+
+    private void OnDestroy()
+    {
+        if (_Spawner != null)
+        {
+            _Spawner.Remove(this);
+        }
+    }
 }

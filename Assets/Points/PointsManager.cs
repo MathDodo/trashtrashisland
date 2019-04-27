@@ -7,6 +7,8 @@ public sealed class PointsManager : MonoBehaviour
 {
     private static PointsManager _instance;
 
+    public Spawner Spawner { get; internal set; }
+
     public static PointsManager Instance
     {
         get
@@ -15,6 +17,7 @@ public sealed class PointsManager : MonoBehaviour
             {
                 GameObject go = new GameObject("Points");
                 _instance = go.AddComponent<PointsManager>();
+                DontDestroyOnLoad(go);
             }
 
             return _instance;
@@ -24,6 +27,7 @@ public sealed class PointsManager : MonoBehaviour
     [SerializeField]
     private List<Text> _uiTexts = new List<Text>();
 
+    private bool _roundTwo = false;
     private int[] _points = { 0, 0 };
 
     private int _activePlayer = -1;
@@ -64,10 +68,32 @@ public sealed class PointsManager : MonoBehaviour
             _uiTexts[activePlayer].text = _points[activePlayer].ToString();
             _activePlayer = activePlayer;
         }
-        else
+        else if (!_roundTwo)
         {
+            _roundTwo = true;
             _timer = 0;
             _activePlayer = -1;
+
+            Spawner.StartRoundTwo();
         }
+        else
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+        }
+    }
+
+    public void ResetPoints()
+    {
+        for (int i = 0; i < _points.Length; i++)
+        {
+            _points[i] = 0;
+        }
+
+        _timer = 0;
+        _activePlayer = -1;
     }
 }

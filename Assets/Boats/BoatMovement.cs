@@ -76,7 +76,7 @@ public class BoatMovement : MonoBehaviour
             audioSource.Play();
         }
 
-        if(rBody.velocity.magnitude < 0.1) sailingAnimation.SetActive(false);
+        if (rBody.velocity.magnitude < 0.1) sailingAnimation.SetActive(false);
         else sailingAnimation.SetActive(true);
     }
 
@@ -105,6 +105,7 @@ public class BoatMovement : MonoBehaviour
         {
             PointsManager.Instance.PointCounting(_green ? 0 : 1);
             rBody.constraints = RigidbodyConstraints2D.FreezeAll;
+            Destroy(gameObject);
         }
     }
 }
