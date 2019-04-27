@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 1027593399571181172}
   - component: {fileID: 6047923044593966903}
   - component: {fileID: 8013759232169015647}
+  - component: {fileID: 204646434799683240}
   m_Layer: 0
   m_Name: Tire
   m_TagString: Trash
@@ -227,3 +228,24 @@ CircleCollider2D:
   m_Offset: {x: 0.0020334497, y: 0}
   serializedVersion: 2
   m_Radius: 0.04487247
+--- !u!50 &204646434799683240
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5682742532970579518}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 20
+  m_LinearDrag: 0.3
+  m_AngularDrag: 0.3
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

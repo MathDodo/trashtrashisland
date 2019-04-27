@@ -119,4 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8995d7ab1e151a445bdea68d8b321e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _wobbleSpeed: 10
+  _wobbleRange: 45
+  _children: []
+  _movementSpeed: 0.025
   _Spawner: {fileID: 0}

@@ -405,6 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6229396589870768365}
   - component: {fileID: 1741141695684417580}
+  - component: {fileID: 6634441895824552245}
   m_Layer: 0
   m_Name: Trash Bag
   m_TagString: Trash
@@ -463,6 +464,27 @@ MonoBehaviour:
   - {fileID: 7082124411558686176}
   _movementSpeed: 0.025
   _Spawner: {fileID: 0}
+--- !u!50 &6634441895824552245
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104753001925313463}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 20
+  m_LinearDrag: 0.3
+  m_AngularDrag: 0.3
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6059601083586697358
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +561,7 @@ SpriteRenderer:
   m_Size: {x: 0.1, y: 0.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &6812265220089116335
