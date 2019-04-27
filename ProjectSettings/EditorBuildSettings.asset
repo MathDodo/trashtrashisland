@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DodoPlayground.unity
     guid: b69455b987e6b464b898c7427c6789b4
+  - enabled: 1
+    path: Assets/Scenes/DrawScene.unity
+    guid: ce3736f616c9b984bb497c21e2797786
+  - enabled: 1
+    path: Assets/Scenes/RedWinningScene.unity
+    guid: 1a09bd208a69b704ca903dea9b7e7d5d
   m_configObjects: {}
