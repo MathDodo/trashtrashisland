@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 7309141273699074084}
   - component: {fileID: 2026684586479382202}
   - component: {fileID: 7943851260933748928}
+  - component: {fileID: 7681354247213238339}
   m_Layer: 0
   m_Name: TrashBlob
   m_TagString: Trash
@@ -237,3 +238,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07154943, y: 0.08208663}
   m_EdgeRadius: 0
+--- !u!114 &7681354247213238339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651954789057667935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef34d78d1211924188d3bc70589e937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
