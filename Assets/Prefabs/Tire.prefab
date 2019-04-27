@@ -168,6 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027593399571181172}
   - component: {fileID: 6047923044593966903}
+  - component: {fileID: 8013759232169015647}
   m_Layer: 0
   m_Name: Tire
   m_TagString: Untagged
@@ -210,3 +211,19 @@ MonoBehaviour:
   - {fileID: 2367587643581014617}
   _movementSpeed: 0.023
   _Spawner: {fileID: 0}
+--- !u!58 &8013759232169015647
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5682742532970579518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0020334497, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.04487247

@@ -957,6 +957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3883821946475886733}
+  - component: {fileID: 1338619102287680382}
   m_Layer: 0
   m_Name: BouyWithFlag
   m_TagString: Untagged
@@ -995,6 +996,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1338619102287680382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6779518589680778036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653affb23c7570846b203771f93ddb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wobbleSpeed: 6
+  _wobbleRange: 60
+  _children:
+  - {fileID: 1285927597876445488}
+  - {fileID: 8277564141808475504}
+  - {fileID: 3294527828408378259}
+  - {fileID: 42665712579598006}
+  - {fileID: 3995953889382507401}
+  - {fileID: 6913619536705981765}
+  - {fileID: 7526985158841157737}
+  - {fileID: 2256595253480558993}
+  - {fileID: 7760159813883384188}
+  - {fileID: 4089480657953936305}
+  - {fileID: 2356738552690386012}
+  - {fileID: 846349947816392528}
+  - {fileID: 808885954071737129}
+  - {fileID: 7382211371748829337}
+  - {fileID: 3124591143081807028}
+  - {fileID: 1245390423767360205}
+  - {fileID: 462957306341742936}
 --- !u!1 &6846066728337695762
 GameObject:
   m_ObjectHideFlags: 0
