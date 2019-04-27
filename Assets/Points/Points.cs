@@ -3,12 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Points : MonoBehaviour
+public sealed class PointsManager : MonoBehaviour
 {
-    [SerializeField]
-    private Text _uiText;
+    private static PointsManager _instance;
 
-    private int _points = 0;
+    public static PointsManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                GameObject go = new GameObject("Points");
+                _instance = go.AddComponent<PointsManager>();
+            }
+
+            return _instance;
+        }
+    }
+
+    [SerializeField]
+    private Text[] _uiTexts;
+
+    private int[] _points;
+
+    private int _activePlayer;
 
     [SerializeField]
     private float _timer = 0;
@@ -21,22 +39,28 @@ public class Points : MonoBehaviour
 
             if (_timer <= 0)
             {
-                _points += 5;
+                _points[_activePlayer] += 5;
                 _timer = 1;
-                _uiText.text = _points.ToString();
+                _uiTexts[_activePlayer].text = _points.ToString();
             }
         }
     }
 
-    public void StartPoints()
+    /// <summary>
+    /// Green is 0, red is 1
+    /// </summary>
+    /// <param name="activePlayer"></param>
+    public void StartPoints(int activePlayer)
     {
         _timer = 1;
-        _points += 5;
-        _uiText.text = _points.ToString();
+        _points[activePlayer] += 5;
+        _uiTexts[activePlayer].text = _points.ToString();
+        _activePlayer = activePlayer;
     }
 
     public void StopPoints()
     {
         _timer = 0;
+        _activePlayer = -1;
     }
 }

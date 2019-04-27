@@ -50,4 +50,12 @@ public class Spawner : MonoBehaviour
             currentY -= .32f;
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }
