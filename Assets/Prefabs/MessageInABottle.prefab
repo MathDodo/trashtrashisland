@@ -483,6 +483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4685751710889136185}
+  - component: {fileID: 3023644881907340415}
   m_Layer: 0
   m_Name: MessageInABottle
   m_TagString: Untagged
@@ -512,6 +513,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3023644881907340415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622830583566536711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8995d7ab1e151a445bdea68d8b321e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wobbleSpeed: 10
+  _wobbleRange: 70
+  _children:
+  - {fileID: 4191520765319115401}
+  - {fileID: 5840011311708015799}
+  - {fileID: 1994518489168399084}
+  - {fileID: 6914374902656119247}
+  - {fileID: 6341735855179121104}
+  - {fileID: 8987785229629724181}
+  - {fileID: 6669414383030283249}
+  - {fileID: 3643047841203353774}
+  _movementSpeed: 0.025
+  _Spawner: {fileID: 0}
 --- !u!1 &8629153493785585689
 GameObject:
   m_ObjectHideFlags: 0
