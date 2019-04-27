@@ -112,7 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &321251887
+--- !u!1 &667757603
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,24 +120,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 321251889}
-  - component: {fileID: 321251888}
+  - component: {fileID: 667757605}
+  - component: {fileID: 667757604}
   m_Layer: 0
-  m_Name: GinaOilSpillBirdVideo1
+  m_Name: RitaTurtleKiller2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!328 &321251888
+--- !u!328 &667757604
 VideoPlayer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321251887}
+  m_GameObject: {fileID: 667757603}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: fcb212767fed7a947aabe85371b1c0a6, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: eb73f692fcbaa3e4fab69539149e8323, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1474539036}
@@ -150,24 +150,26 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
---- !u!4 &321251889
+--- !u!4 &667757605
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321251887}
+  m_GameObject: {fileID: 667757603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -415,4 +417,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ffe76478e6a5946b7ed8f65e97ca06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vPlayer: {fileID: 321251888}
+  vPlayer: {fileID: 667757604}
