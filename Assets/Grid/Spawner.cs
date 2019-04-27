@@ -40,12 +40,16 @@ public class Spawner : MonoBehaviour
         {
             for (int x = 0; x < 24; x++)
             {
-                var trash = Instantiate(_trashPrefabs[UnityEngine.Random.Range(0, _trashPrefabs.Length)], _startTrashCorner + new Vector3(offset * x + UnityEngine.Random.Range(-rangeOffset, rangeOffset),
-                    offset * -y + UnityEngine.Random.Range(-rangeOffset, rangeOffset), 0), Quaternion.identity, transform);
+                if(!((x == 12 || x == 11) && (y == 7 || y == 6)))
+                {
+                    var trash = Instantiate(_trashPrefabs[UnityEngine.Random.Range(0, _trashPrefabs.Length)], _startTrashCorner + new Vector3(offset * x + UnityEngine.Random.Range(-rangeOffset, rangeOffset),
+                        offset * -y + UnityEngine.Random.Range(-rangeOffset, rangeOffset), 0), Quaternion.identity, transform);
 
-                trash._Spawner = this;
+                    trash._Spawner = this;
 
-                _activeTrash.Add(trash);
+                    _activeTrash.Add(trash);
+                }
+                
             }
         }
 
