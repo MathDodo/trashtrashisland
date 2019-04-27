@@ -27,7 +27,7 @@ public sealed class PointsManager : MonoBehaviour
     [SerializeField]
     private List<Text> _uiTexts = new List<Text>();
 
-    private bool _roundTwo = false;
+    public bool _RoundTwo = false;
     private int[] _points = { 0, 0 };
 
     private int _activePlayer = -1;
@@ -68,9 +68,9 @@ public sealed class PointsManager : MonoBehaviour
             _uiTexts[activePlayer].text = _points[activePlayer].ToString();
             _activePlayer = activePlayer;
         }
-        else if (!_roundTwo)
+        else if (!_RoundTwo)
         {
-            _roundTwo = true;
+            _RoundTwo = true;
             _timer = 0;
             _activePlayer = -1;
 
