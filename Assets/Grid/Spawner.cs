@@ -40,12 +40,13 @@ public class Spawner : MonoBehaviour
             }
         }
 
-        for (int y = 0; y < 8; y++)
+        for (int y = 0; y < 7; y++)
         {
-            for (int x = 0; x < 16; x++)
+            for (int x = 0; x < 13; x++)
             {
                 Instantiate(_waterPrefab, new Vector3(_waterStartX + .32f * x, currentY, 0), Quaternion.identity, transform);
             }
+
             currentY -= .32f;
         }
     }
