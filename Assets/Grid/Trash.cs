@@ -67,4 +67,9 @@ public class Trash : MonoBehaviour
             _Spawner.Remove(this);
         }
     }
+
+    public void SetStartPos(Vector3 pos)
+    {
+        _startPos = pos;
+    }
 }
