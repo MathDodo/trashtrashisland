@@ -101,10 +101,10 @@ TextureImporter:
       name: Drone Water Breach_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 8
-        width: 10
-        height: 8
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,7 +112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c0a4bd10c7209b42859c0e41068d7ec
+      spriteID: 87420bfb72c35ae4f8b3b7a3cedb86d5
       vertices: []
       indices: 
       edges: []
@@ -121,10 +121,10 @@ TextureImporter:
       name: Drone Water Breach_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 8
-        width: 10
-        height: 8
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,7 +132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f84ddbbdcbaa83842bf4c20203a4fae6
+      spriteID: d8eb45542ec19724fbe626e5819eb48c
       vertices: []
       indices: 
       edges: []
@@ -141,10 +141,10 @@ TextureImporter:
       name: Drone Water Breach_2
       rect:
         serializedVersion: 2
-        x: 30
-        y: 8
-        width: 10
-        height: 8
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,7 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65203a0db1938c044a982d461f526607
+      spriteID: b38b5e0d647ae8141b69e8042f2534dd
       vertices: []
       indices: 
       edges: []
@@ -161,10 +161,10 @@ TextureImporter:
       name: Drone Water Breach_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 8
-        width: 10
-        height: 8
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e34aa44d731cc41bfbc6d7fbf6636b
+      spriteID: 767f15bd5d842184d8a2b3220ce32233
       vertices: []
       indices: 
       edges: []
@@ -181,10 +181,10 @@ TextureImporter:
       name: Drone Water Breach_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 8
-        width: 10
-        height: 8
+        x: 64
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,7 +192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6826cda4c3656d242880ccc758b35a78
+      spriteID: 6073e66a9bced254189b35cfc5626fc1
       vertices: []
       indices: 
       edges: []
@@ -201,170 +201,10 @@ TextureImporter:
       name: Drone Water Breach_5
       rect:
         serializedVersion: 2
-        x: 60
-        y: 8
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63bf640f205b4ea4f8d0f12cf38148bf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_6
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 8
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66f0558605971f84c98272370d6e4601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_7
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58759102a5178b04282440b5c299d4b8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_8
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b86d98e1d4882574ba1b0fc15f211ae3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_9
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd928dd85b17c2843942124c3f58155a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_10
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a85227c5c9b33b749b2cec1920eb8f7e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_11
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa4dc66f595ef924eb76a42441ec9cd1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_12
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43d710d35b2dcd846907b6acfc73ec8e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drone Water Breach_13
-      rect:
-        serializedVersion: 2
         x: 80
         y: 0
-        width: 10
-        height: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,7 +212,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 785f340e6c3096a4194cda5586781a9f
+      spriteID: 4a60b1bb967a3964aa29618cfbb16fe6
       vertices: []
       indices: 
       edges: []
