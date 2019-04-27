@@ -1,17 +1,22 @@
 fileFormatVersion: 2
-guid: 95aec883d5f44164c8b9bf542a86d8ea
+guid: 62957091f2979a64992c36787ffa8470
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Trash Bag_0
-    21300002: Trash Bag_1
-    21300004: Trash Bag_2
-    21300006: Trash Bag_3
-    21300008: Trash Bag_4
-    21300010: Trash Bag_5
-    21300012: Trash Bag_6
-    21300014: Trash Bag_7
-    21300016: Trash Bag_8
-    21300018: Trash Bag_9
+    21300000: Drive By_0
+    21300002: Drive By_1
+    21300004: Drive By_2
+    21300006: Drive By_3
+    21300008: Drive By_4
+    21300010: Drive By_5
+    21300012: Drive By_6
+    21300014: Drive By_7
+    21300016: Drive By_8
+    21300018: Drive By_9
+    21300020: Drive By_10
+    21300022: Drive By_11
+    21300024: Drive By_12
+    21300026: Drive By_13
+    21300028: Drive By_14
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -70,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -81,7 +86,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -92,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,13 +110,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trash Bag_0
+      name: Drive By_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196f02a416d4c5e49ba4d885143919c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 714
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efac879ad463fd408f59b895c8eaf83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_2
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 714
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c2506fd6f5e644bb0ca39faaefdd7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_3
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 714
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2ae6758822e344c926f0ffc8363668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f473a47c80e5e634ba044e9b110abd73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 476
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd8411482d4c44dad1545e352a8410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 476
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906c0e60ddc7d074eb282811c3d8f969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_7
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 476
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e667fd834429b448812b31ebdf8bba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55862ae8b65ba748a6b85dc74fea325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 238
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820190c536301934a910a1a69fd7634d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 238
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e79767fd2c0b514bb00bf18421e4fb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_11
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 238
+        width: 630
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32da8843955d994b9d1944186d082be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drive By_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 10
-        height: 10
+        width: 630
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,19 +364,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e5075987233d944abc26f64d1e3857
+      spriteID: 1928735408377f84c98479e51a01e0a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash Bag_1
+      name: Drive By_13
       rect:
         serializedVersion: 2
-        x: 10
+        x: 630
         y: 0
-        width: 10
-        height: 10
+        width: 630
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,19 +384,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72068aa2dcb94ca45825c91224559b01
+      spriteID: 77455fb02d6fb67429d493916646f767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trash Bag_2
+      name: Drive By_14
       rect:
         serializedVersion: 2
-        x: 20
+        x: 1260
         y: 0
-        width: 10
-        height: 10
+        width: 630
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,127 +404,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6760b6e3f4f2cb43bdfff78344e5f2c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trash Bag_3
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 0
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eda221348d95eee4483688fca7e6b7bd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trash Bag_4
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eef082e4891c74045bcf55dbfe65049c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trash Bag_5
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: faa886612b42f6f4ca4ff476a4e201f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trash Bag_6
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fb494a8503da5041b41c941e22defbb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trash Bag_7
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 0
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efb383bb7e1689b499743a3542f0e0ad
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trash Bag_8
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bc280f7b182ea64d9fef22158ca34e7
+      spriteID: 179fb585d84a2d442ae53e7d5051d038
       vertices: []
       indices: 
       edges: []
@@ -287,7 +412,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 02d84cc7dbc053a4ba04dbfa06002d03
+    spriteID: 6716c77c9f1d5524393affc2b98e8fae
     vertices: []
     indices: 
     edges: []
