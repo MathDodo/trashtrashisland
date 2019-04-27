@@ -7,29 +7,26 @@ public class Spawner : MonoBehaviour
     [SerializeField]
     private Trash _tilePrefab;
 
+    [SerializeField]
+    private Camera _main;
+
+    [SerializeField]
+    private int _amountToSpawn;
+
     private List<Trash> _activeTrash = new List<Trash>();
     private List<Trash> _inactiveTrash = new List<Trash>();
 
-    private void Awake()
+    private void Start()
     {
-        Vector2 pos = _tilePrefab.transform.position;
-        var startX = pos.x;
-
-        for (int y = 0; y < 160; y++)
+        for (int x = 0; x < _amountToSpawn; x++)
         {
-            for (int x = 0; x < 320; x++)
-            {
-                var trashPiece = Instantiate(_tilePrefab);
-                trashPiece.transform.SetParent(transform);
-                trashPiece.transform.position = pos;
-                trashPiece._Spawner = this;
+            Vector3 screenPosition = _main.ScreenToWorldPoint(new Vector3(Random.Range(0, Screen.width), Random.Range(0, Screen.height), _main.farClipPlane / 2));
+            var trashPiece = Instantiate(_tilePrefab);
+            trashPiece.transform.SetParent(transform);
+            trashPiece.transform.position = screenPosition;
+            trashPiece._Spawner = this;
 
-                _activeTrash.Add(trashPiece);
-                pos.x += .070f;
-            }
-
-            pos.x = startX;
-            pos.y += .07f;
+            _activeTrash.Add(trashPiece);
         }
     }
 }

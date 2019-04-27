@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: f8028390ef12d91418de1146d987636f
+guid: 324bd375d3c1fb147ab67eb2d77a9142
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Green Drone_0
-    21300002: Green Drone_1
-    21300004: Green Drone_2
-    21300006: Green Drone_3
-    21300008: Green Drone_4
-    21300010: Green Drone_5
-    21300012: Green Drone_6
-    21300014: Green Drone_7
+    21300000: Red Jet_0
+    21300002: Red Jet_1
+    21300004: Red Jet_2
+    21300006: Red Jet_3
+    21300008: Red Jet_4
+    21300010: Red Jet_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,12 +90,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Green Drone_0
+      name: Red Jet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 10
+        width: 20
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -106,38 +104,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce24a1cff097ef74d80bae9816432450
+      spriteID: 0c493401011ca9b4182b9f3728a31913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_1
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff334d68dbf680340a5ca7106860a3cc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green Drone_2
+      name: Red Jet_1
       rect:
         serializedVersion: 2
         x: 20
         y: 0
-        width: 10
+        width: 20
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -146,38 +124,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa1cc675dfa55445a2ceb10be758de8
+      spriteID: be21fbd6325daa14bb66939190acd689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_3
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3001140a870845a41a29ff5d6c3151c9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green Drone_4
+      name: Red Jet_2
       rect:
         serializedVersion: 2
         x: 40
         y: 0
-        width: 10
+        width: 20
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -186,38 +144,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b9ae8003091774192c5fbd31b2ea7f
+      spriteID: 367c8df76f742564689ec12d74ff78f5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_5
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38f9065d2472cea4586972e9d4bdc091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green Drone_6
+      name: Red Jet_3
       rect:
         serializedVersion: 2
         x: 60
         y: 0
-        width: 10
+        width: 20
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -226,18 +164,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d827db488feece48b9da5c30ae7bb39
+      spriteID: 8958f813fa0911843b3dd912fea1a055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_7
+      name: Red Jet_4
       rect:
         serializedVersion: 2
-        x: 70
+        x: 80
         y: 0
-        width: 10
+        width: 20
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,7 +184,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68a8c5019e646dc4cb0174bfa401c114
+      spriteID: 607d94f60c5b76948982b2eb84fca1ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Jet_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671a3795920d92549b6ce032312cd235
       vertices: []
       indices: 
       edges: []
@@ -254,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 374fde84eb642864eb6713bfc114a9d9
+    spriteID: bee4db3f4b8d55a43a272baa943fac68
     vertices: []
     indices: 
     edges: []

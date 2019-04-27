@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: f8028390ef12d91418de1146d987636f
+guid: 2850a6c44a227f24eafb87ea536c3fbd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Green Drone_0
-    21300002: Green Drone_1
-    21300004: Green Drone_2
-    21300006: Green Drone_3
-    21300008: Green Drone_4
-    21300010: Green Drone_5
-    21300012: Green Drone_6
-    21300014: Green Drone_7
+    21300000: Red Drone_0
+    21300002: Red Drone_1
+    21300004: Red Drone_2
+    21300006: Red Drone_3
+    21300008: Red Drone_4
+    21300010: Red Drone_5
+    21300012: Red Drone_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,7 +91,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Green Drone_0
+      name: Red Drone_0
       rect:
         serializedVersion: 2
         x: 0
@@ -106,13 +105,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce24a1cff097ef74d80bae9816432450
+      spriteID: 7e5513124d33fb24f8efc705845d1491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_1
+      name: Red Drone_1
       rect:
         serializedVersion: 2
         x: 10
@@ -126,13 +125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff334d68dbf680340a5ca7106860a3cc
+      spriteID: ff89530f7fc264343bd65f474e21247b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_2
+      name: Red Drone_2
       rect:
         serializedVersion: 2
         x: 20
@@ -146,13 +145,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa1cc675dfa55445a2ceb10be758de8
+      spriteID: 4db8d5cbf75f49a499bc28f008aecf0b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_3
+      name: Red Drone_3
       rect:
         serializedVersion: 2
         x: 30
@@ -166,13 +165,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3001140a870845a41a29ff5d6c3151c9
+      spriteID: f6e22284cbd86ef4697a0cfd1f02acad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_4
+      name: Red Drone_4
       rect:
         serializedVersion: 2
         x: 40
@@ -186,13 +185,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b9ae8003091774192c5fbd31b2ea7f
+      spriteID: 1ac01039ed5c24344832d348507b96a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_5
+      name: Red Drone_5
       rect:
         serializedVersion: 2
         x: 50
@@ -206,13 +205,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38f9065d2472cea4586972e9d4bdc091
+      spriteID: 1b89c35f50652c947a632ebb8beaf0a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green Drone_6
+      name: Red Drone_6
       rect:
         serializedVersion: 2
         x: 60
@@ -226,27 +225,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d827db488feece48b9da5c30ae7bb39
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green Drone_7
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 0
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68a8c5019e646dc4cb0174bfa401c114
+      spriteID: 8e1070c8f2cb19645a9f9110649cfe37
       vertices: []
       indices: 
       edges: []
@@ -254,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 374fde84eb642864eb6713bfc114a9d9
+    spriteID: cdc504d80a6523d498cf1d0c3fe3088f
     vertices: []
     indices: 
     edges: []

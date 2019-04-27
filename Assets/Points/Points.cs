@@ -9,6 +9,8 @@ public class Points : MonoBehaviour
     private Text _uiText;
 
     private int _points = 0;
+
+    [SerializeField]
     private float _timer = 0;
 
     private void Update()
