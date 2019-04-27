@@ -8,6 +8,8 @@ public class BoatMovement : MonoBehaviour
     public float acceleration;
     public float rotation;
     public float maxSpeed;
+    public Transform parentTrans;
+    public float friction;
 
     private Rigidbody2D rBody;
 
@@ -15,6 +17,7 @@ public class BoatMovement : MonoBehaviour
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        //StartCoroutine(FrictionRoutine());
     }
 
     // Update is called once per frame
@@ -22,12 +25,12 @@ public class BoatMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(new Vector3(0, 0, rotation));
+            parentTrans.Rotate(new Vector3(0, 0, rotation));
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(new Vector3(0, 0, -rotation));
+            parentTrans.Rotate(new Vector3(0, 0, -rotation));
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
@@ -35,11 +38,23 @@ public class BoatMovement : MonoBehaviour
             rBody.AddForce(transform.up * acceleration);   
         }
 
-        if(rBody.velocity.magnitude > maxSpeed)
+        rBody.velocity = rBody.velocity * friction;
+
+        if (rBody.velocity.magnitude > maxSpeed)
         {
             rBody.velocity = rBody.velocity.normalized * maxSpeed;
         }
 
     }
-    
+
+    IEnumerator FrictionRoutine()
+    {
+        while (true)
+        {
+            
+            yield return new WaitForSeconds(1);
+        }
+    }
+
+
 }
