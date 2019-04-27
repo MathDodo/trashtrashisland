@@ -98,8 +98,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,7 +107,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 939ba71c79b5d6a469f9556b8fa0c604
+      spriteID: e8f9a120b2695804192b3ab693fbe00a
       vertices: []
       indices: 
       edges: []
@@ -116,10 +116,10 @@ TextureImporter:
       name: Raft_1
       rect:
         serializedVersion: 2
-        x: 12
+        x: 14
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,7 +127,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fb3288c3b5907408a6d012f9121fe5
+      spriteID: d5484d6b351997744a323347b2d79361
       vertices: []
       indices: 
       edges: []
@@ -136,10 +136,10 @@ TextureImporter:
       name: Raft_2
       rect:
         serializedVersion: 2
-        x: 24
+        x: 28
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,7 +147,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14d440d820da22429cd48d70cc513df
+      spriteID: c135b761f7f01d040b9b9fc662352972
       vertices: []
       indices: 
       edges: []
@@ -156,10 +156,10 @@ TextureImporter:
       name: Raft_3
       rect:
         serializedVersion: 2
-        x: 36
+        x: 42
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,7 +167,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ae114f00df8c5c469f3a76a40fc6047
+      spriteID: e7f91863b1a64664b9235c41a885b8c3
       vertices: []
       indices: 
       edges: []
@@ -176,10 +176,10 @@ TextureImporter:
       name: Raft_4
       rect:
         serializedVersion: 2
-        x: 48
+        x: 56
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e923e715f52417c448feeb6432f674f4
+      spriteID: feadb3fedecc2784ab4346f8b1745ded
       vertices: []
       indices: 
       edges: []
@@ -196,10 +196,10 @@ TextureImporter:
       name: Raft_5
       rect:
         serializedVersion: 2
-        x: 60
+        x: 70
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,7 +207,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b0867af445077a4bbeec1932e3840b1
+      spriteID: 00573fd163c169846bdc98b429acd0e9
       vertices: []
       indices: 
       edges: []
@@ -216,10 +216,10 @@ TextureImporter:
       name: Raft_6
       rect:
         serializedVersion: 2
-        x: 72
+        x: 84
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,7 +227,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a1c26f6366a564ba789a06e3716dde
+      spriteID: e9dadfaa1e2345f4fbd07069f7d0b482
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
       name: Raft_7
       rect:
         serializedVersion: 2
-        x: 84
+        x: 98
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,7 +247,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fc4b48d510aff446b98ac1aa1214a1e
+      spriteID: 7039843e566bd5448972d049f8398556
       vertices: []
       indices: 
       edges: []
@@ -256,10 +256,10 @@ TextureImporter:
       name: Raft_8
       rect:
         serializedVersion: 2
-        x: 96
+        x: 112
         y: 0
-        width: 12
-        height: 8
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,7 +267,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d0ece6ca3d8dd4a86c11a673e7ca04
+      spriteID: 3004e0b2faf537443b3c9b0896ad171c
       vertices: []
       indices: 
       edges: []
