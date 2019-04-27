@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public sealed class PointsManager : MonoBehaviour
@@ -88,11 +89,25 @@ public sealed class PointsManager : MonoBehaviour
         }
         else
         {
-#if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
+            _RoundTwo = false;
+            _timer = 0;
+            _activePlayer = -1;
+
+            if (_points[0] > _points[1])
+            {
+                SceneManager.LoadScene("GreenWinningScene");
+            }
+            else if (_points[0] < _points[1])
+            {
+                SceneManager.LoadScene("RedWinningScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("DrawScene");
+            }
+
+            _points[0] = 0;
+            _points[1] = 0;
         }
     }
 

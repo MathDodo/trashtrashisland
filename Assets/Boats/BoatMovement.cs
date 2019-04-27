@@ -105,7 +105,11 @@ public class BoatMovement : MonoBehaviour
         {
             PointsManager.Instance.PointCounting(_green ? 0 : 1);
             rBody.constraints = RigidbodyConstraints2D.FreezeAll;
-            Destroy(gameObject);
+
+            enabled = false;
+
+            GetComponentInChildren<Collider2D>().enabled = false;
+            sailingAnimation.SetActive(false);
         }
     }
 }

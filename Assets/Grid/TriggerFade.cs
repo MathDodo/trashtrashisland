@@ -33,7 +33,7 @@ public class TriggerFade : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!PointsManager.Instance._RoundTwo && collision.gameObject.CompareTag("Untagged"))
+        if (!PointsManager.Instance._RoundTwo && collision.gameObject.CompareTag("Untagged") || collision.gameObject.CompareTag("Goal"))
         {
             _Fade = true;
         }

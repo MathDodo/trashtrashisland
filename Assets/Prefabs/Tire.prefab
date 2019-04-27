@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 1027593399571181172}
   - component: {fileID: 6047923044593966903}
   - component: {fileID: 8013759232169015647}
+  - component: {fileID: 4107205792572094391}
   m_Layer: 0
   m_Name: Tire
   m_TagString: Trash
@@ -227,3 +228,15 @@ CircleCollider2D:
   m_Offset: {x: 0.0020334497, y: 0}
   serializedVersion: 2
   m_Radius: 0.04487247
+--- !u!114 &4107205792572094391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5682742532970579518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef34d78d1211924188d3bc70589e937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
