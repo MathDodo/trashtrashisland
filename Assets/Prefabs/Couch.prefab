@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: 3529435895175377595}
   - component: {fileID: 8792775915059846041}
   - component: {fileID: 5393445498528108048}
+  - component: {fileID: 2944988036381089231}
   m_Layer: 0
   m_Name: Couch
   m_TagString: Trash
@@ -480,3 +481,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16665557, y: 0.13728678}
   m_EdgeRadius: 0
+--- !u!50 &2944988036381089231
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978187656253312493}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 20
+  m_LinearDrag: 0.3
+  m_AngularDrag: 0.3
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
