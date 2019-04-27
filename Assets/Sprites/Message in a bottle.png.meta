@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+
 guid: e36c7f95992ed404b8722298126228a0
 TextureImporter:
   fileIDToRecycleName:
@@ -77,6 +78,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+
   - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 2048
