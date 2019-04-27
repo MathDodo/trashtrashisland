@@ -866,7 +866,7 @@ SpriteRenderer:
   m_Size: {x: 0.12, y: 0.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &5866053622271337586
@@ -958,9 +958,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3883821946475886733}
   - component: {fileID: 1338619102287680382}
+  - component: {fileID: 8357815888158219955}
   m_Layer: 0
   m_Name: BouyWithFlag
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1028,6 +1029,22 @@ MonoBehaviour:
   - {fileID: 3124591143081807028}
   - {fileID: 1245390423767360205}
   - {fileID: 462957306341742936}
+--- !u!58 &8357815888158219955
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6779518589680778036}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.05}
+  serializedVersion: 2
+  m_Radius: 0.1
 --- !u!1 &6846066728337695762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,7 +1358,7 @@ SpriteRenderer:
   m_Size: {x: 0.12, y: 0.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8860689128309740835
