@@ -405,6 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6895001758822875215}
   - component: {fileID: 3437509857975507737}
+  - component: {fileID: 6664794586940854595}
   m_Layer: 0
   m_Name: Umbrella
   m_TagString: Untagged
@@ -459,6 +460,22 @@ MonoBehaviour:
   - {fileID: 1011763922152082844}
   _movementSpeed: 0.025
   _Spawner: {fileID: 0}
+--- !u!58 &6664794586940854595
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900247799770519795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.052
 --- !u!1 &8581689607928664510
 GameObject:
   m_ObjectHideFlags: 0
