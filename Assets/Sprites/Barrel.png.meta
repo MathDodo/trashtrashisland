@@ -1,12 +1,13 @@
 fileFormatVersion: 2
-guid: 4be15b8d32f11a54b9d3ea45886a6944
+guid: 88f0eccf6c66853409f1af2d28ff3153
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Couch_0
-    21300002: Couch_1
-    21300004: Couch_2
-    21300006: Couch_3
-    21300008: Couch_4
+    21300000: Barrel_0
+    21300002: Barrel_1
+    21300004: Barrel_2
+    21300006: Barrel_3
+    21300008: Barrel_4
+    21300010: Barrel_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -68,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -79,7 +80,18 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -89,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Couch_0
+      name: Barrel_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 24
-        height: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,19 +115,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96583e1bf1baed448b9576a637b16f12
+      spriteID: 3d01ffe1818eb0e4ba6ec4424b7d4427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Couch_1
+      name: Barrel_1
       rect:
         serializedVersion: 2
         x: 24
         y: 0
         width: 24
-        height: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,19 +135,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3afa5fd20888d74e80af81f8fb5f4f4
+      spriteID: 33cdc5eed0799734b9b85785af64da82
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Couch_2
+      name: Barrel_2
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 24
-        height: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,19 +155,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea207178e022cdf48955437a9a86608b
+      spriteID: 0cd555dfb9cf06b42af1197a92a5ce77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Couch_3
+      name: Barrel_3
       rect:
         serializedVersion: 2
         x: 72
         y: 0
         width: 24
-        height: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,19 +175,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d79e78fb60f444587ae21c93b39e92
+      spriteID: 27429e715483bef4a98b4c54a5a2e86a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Couch_4
+      name: Barrel_4
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 24
-        height: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc973776ba0b5ea4f9ae7666e19624a6
+      spriteID: b6084450cf7b243459cf5220e7c99802
       vertices: []
       indices: 
       edges: []
@@ -191,7 +203,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a7c7d2e42670aeb44b8df6db6c50b6ab
+    spriteID: a85b01fe1a2db6a49be7414d9c5674d8
     vertices: []
     indices: 
     edges: []
