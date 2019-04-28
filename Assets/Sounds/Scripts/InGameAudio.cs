@@ -7,10 +7,14 @@ public class InGameAudio : MonoBehaviour
     public AudioClip[] greenVoiceLines;
     public AudioClip[] greenCollisionSounds;
     public AudioClip[] greenStartSounds;
+    public AudioClip[] greenRound2Sounds;
+    public AudioClip[] greenFirstSounds;
 
     public AudioClip[] redVoiceLines;
     public AudioClip[] redCollisionSounds;
     public AudioClip[] redStartSounds;
+    public AudioClip[] redRound2Sounds;
+    public AudioClip[] redFirstSounds;
 
 
 
@@ -24,8 +28,33 @@ public class InGameAudio : MonoBehaviour
     {
         source = GetComponent<AudioSource>();
         PlayStartSound();
+        Spawner.OnRoundChange += PlayRound2Sound;
         GreenEvent.OnCollision += PlayGreenSound;
         RedEvent.OnCollision += PlayRedSound;
+        PointsManager.OnGreenFirst += PlayGreenFirst;
+        PointsManager.OnRedFirst += PlayRedFirst;
+    }
+
+    void PlayGreenFirst()
+    {
+        source.clip = greenFirstSounds[Random.Range(0, greenFirstSounds.Length)];
+        source.Play();
+    }
+
+    void PlayRedFirst()
+    {
+        source.clip = redFirstSounds[Random.Range(0, redFirstSounds.Length)];
+        source.Play();
+    }
+
+    void PlayRound2Sound()
+    {
+        if (Random.Range(0, 10) >= 5)
+            source.clip = greenRound2Sounds[Random.Range(0, greenRound2Sounds.Length)];
+        else
+            source.clip = redRound2Sounds[Random.Range(0, redRound2Sounds.Length)];
+
+        source.Play();
     }
 
     void PlayStartSound()
@@ -83,5 +112,14 @@ public class InGameAudio : MonoBehaviour
             cd--;
             yield return new WaitForSeconds(1);
         }
+    }
+
+    private void OnDestroy()
+    {
+        Spawner.OnRoundChange -= PlayRound2Sound;
+        GreenEvent.OnCollision -= PlayGreenSound;
+        RedEvent.OnCollision -= PlayRedSound;
+        PointsManager.OnGreenFirst -= PlayGreenFirst;
+        PointsManager.OnRedFirst -= PlayRedFirst;
     }
 }
