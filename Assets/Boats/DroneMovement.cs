@@ -7,13 +7,13 @@ public class DroneMovement : MonoBehaviour
     [SerializeField]
     private bool _green;
 
+    [SerializeField]
+    private string _speed, _right, _left;
+
     public float acceleration;
     public float rotation;
     public float maxSpeed;
     public float friction;
-    public KeyCode left;
-    public KeyCode right;
-    public KeyCode forward;
     public AudioClip start;
     public AudioClip stop;
     public AudioClip loop;
@@ -33,13 +33,13 @@ public class DroneMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKey(forward))
+        if (Input.GetButton(_speed))
         {
             rBody.AddForce(childTrans[0].right * acceleration);
         }
         else
         {
-            if (Input.GetKey(left))
+            if (Input.GetButton(_left))
             {
                 foreach (Transform t in childTrans)
                 {
@@ -47,7 +47,7 @@ public class DroneMovement : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(right))
+            if (Input.GetButton(_right))
             {
                 foreach (Transform t in childTrans)
                 {
@@ -56,7 +56,7 @@ public class DroneMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(forward))
+        if (Input.GetButtonDown(_speed))
         {
             sailing = true;
             StartCoroutine(StartSound());
@@ -68,7 +68,7 @@ public class DroneMovement : MonoBehaviour
             rBody.velocity = rBody.velocity.normalized * maxSpeed;
         }
 
-        if (Input.GetKeyUp(forward))
+        if (Input.GetButtonUp(_speed))
         {
             sailing = false;
             audioSource.Stop();

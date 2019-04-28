@@ -74,13 +74,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _green: 1
+  _speed: GreenPlayerSpeed
+  _right: GreenPlayerRight
+  _left: GreenPlayerLeft
   acceleration: 0.9
   rotation: 2.5
   maxSpeed: 7
   friction: 0.99
-  left: 97
-  right: 100
-  forward: 119
   start: {fileID: 8300000, guid: 7c6cb44a37389ae4d9f1dbd2356207d0, type: 3}
   stop: {fileID: 8300000, guid: f13e9a21b9cdae346a72443bbc919369, type: 3}
   loop: {fileID: 8300000, guid: ef70e085d32e6c748b11e1262a09631e, type: 3}
