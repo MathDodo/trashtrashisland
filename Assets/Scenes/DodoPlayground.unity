@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 2146274668}
   - component: {fileID: 2146274667}
   m_Layer: 0
-  m_Name: CollisionSoundSystem
+  m_Name: SoundSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -859,8 +859,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 81d9d3426f2a5434ab3906ec7aba0f2a, type: 3}
   - {fileID: 8300000, guid: e9bc13e8d2c91ae4198af85c51ab1402, type: 3}
   - {fileID: 8300000, guid: 9ac4167919164cc438e7181aa8b1b999, type: 3}
+  greenStartSounds:
+  - {fileID: 8300000, guid: ef78083f589e23e4ba9b7b85838985ae, type: 3}
+  - {fileID: 8300000, guid: 24d9328df28bebc4daace23c07f99e54, type: 3}
+  - {fileID: 8300000, guid: f373ccc5939286b408bb2209369158bf, type: 3}
+  - {fileID: 8300000, guid: 3f1f8d762ba8cd84c87dfd79ea71337c, type: 3}
+  - {fileID: 8300000, guid: 6d195cb64317e8944824915e2bf29409, type: 3}
   redVoiceLines: []
   redCollisionSounds: []
+  redStartSounds: []
   cdTime: 5
 --- !u!82 &2146274668
 AudioSource:

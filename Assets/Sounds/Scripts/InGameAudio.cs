@@ -6,9 +6,13 @@ public class InGameAudio : MonoBehaviour
 {
     public AudioClip[] greenVoiceLines;
     public AudioClip[] greenCollisionSounds;
+    public AudioClip[] greenStartSounds;
 
     public AudioClip[] redVoiceLines;
     public AudioClip[] redCollisionSounds;
+    public AudioClip[] redStartSounds;
+
+
 
     public int cdTime;
 
@@ -19,8 +23,19 @@ public class InGameAudio : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
+        PlayStartSound();
         GreenEvent.OnCollision += PlayGreenSound;
         RedEvent.OnCollision += PlayRedSound;
+    }
+
+    void PlayStartSound()
+    {
+        if(Random.Range(0,10) >= 5)
+            source.clip = greenStartSounds[Random.Range(0, greenStartSounds.Length)];
+        else
+            source.clip = redStartSounds[Random.Range(0, redStartSounds.Length)];
+        
+        source.Play();
     }
 
     void PlayGreenSound()
@@ -48,11 +63,11 @@ public class InGameAudio : MonoBehaviour
 
         if (Random.Range(0, 10) >= 5)
         {
-            source.clip = redCollisionSounds[Random.RandomRange(0, greenCollisionSounds.Length)];
+            source.clip = redCollisionSounds[Random.RandomRange(0, redCollisionSounds.Length)];
         }
         else
         {
-            source.clip = redVoiceLines[Random.RandomRange(0, greenVoiceLines.Length)];
+            source.clip = redVoiceLines[Random.RandomRange(0, redVoiceLines.Length)];
 
         }
         source.Play();
