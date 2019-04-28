@@ -1395,12 +1395,12 @@ PrefabInstance:
     - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
         type: 3}
       propertyPath: _lowChanceTrashPrefabs.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
         type: 3}
       propertyPath: _highChanceTrashPrefabs.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
         type: 3}
@@ -1465,7 +1465,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _lowChanceTrashPrefabs.Array.data[4]
       value: 
-      objectReference: {fileID: 3437509857975507737, guid: 54551ea0a93799d419d076689f0fbce6,
+      objectReference: {fileID: 3670070439301213258, guid: 6548c90c28236954cac10b56332ea6f1,
         type: 3}
     - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
         type: 3}
@@ -1495,7 +1495,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _lowChanceTrashPrefabs.Array.data[5]
       value: 
-      objectReference: {fileID: 8731775385891831920, guid: 9aac80d66ce9ac04980cd0a5d094d9f7,
+      objectReference: {fileID: 8169739708507640197, guid: e12f48b2eed977144975bfb436c688eb,
         type: 3}
     - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
         type: 3}
@@ -1507,6 +1507,18 @@ PrefabInstance:
       propertyPath: _highChanceTrashPrefabs.Array.data[4]
       value: 
       objectReference: {fileID: 9205401133513860676, guid: d1865855ce71a144e82a39749e8bf1c5,
+        type: 3}
+    - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
+        type: 3}
+      propertyPath: _highChanceTrashPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 789619201162291563, guid: 79080ebe43eb6f447b54485e7b6daa4d,
+        type: 3}
+    - target: {fileID: 2407264828494483896, guid: 5bfd8fae7c370cc429a8cc1efa3691cf,
+        type: 3}
+      propertyPath: _highChanceTrashPrefabs.Array.data[6]
+      value: 
+      objectReference: {fileID: 6922821231120219332, guid: b7cdd0ea2a8e0654d9995e28820841b7,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bfd8fae7c370cc429a8cc1efa3691cf, type: 3}
