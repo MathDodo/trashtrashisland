@@ -81,6 +81,8 @@ public class Spawner : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -88,6 +90,8 @@ public class Spawner : MonoBehaviour
             Application.Quit();
         }
     }
+
+#endif
 
     internal void StartRoundTwo()
     {

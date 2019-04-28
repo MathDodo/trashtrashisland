@@ -535,14 +535,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990723737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AssetsPPU: 100
-  m_RefResolutionX: 320
-  m_RefResolutionY: 180
+  m_RefResolutionX: 393
+  m_RefResolutionY: 221
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 0
@@ -960,6 +960,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 746051132286195856, guid: 118a3e205f593a2468c992669844c687,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 746051132286195856, guid: 118a3e205f593a2468c992669844c687,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 768
+      objectReference: {fileID: 0}
+    - target: {fileID: 746051132286195856, guid: 118a3e205f593a2468c992669844c687,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 432
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 746051132297207771, guid: 118a3e205f593a2468c992669844c687, type: 3}

@@ -103,6 +103,7 @@ public class BoatMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Goal"))
         {
+            audioSource.enabled = false;
             PointsManager.Instance.PointCounting(_green ? 0 : 1);
             rBody.constraints = RigidbodyConstraints2D.FreezeAll;
 
