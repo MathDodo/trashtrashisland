@@ -2558,5 +2558,10 @@ PrefabInstance:
       propertyPath: redFirstSounds.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: 725899aac1ca2414bb1ad8f28610c6d2, type: 3}
+    - target: {fileID: 7688518834358000509, guid: 7c8e05262b5e2f0439f31ee190fb9c60,
+        type: 3}
+      propertyPath: greenVoiceLines.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: e7288e047d2fb6b4580c67474e274f61, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c8e05262b5e2f0439f31ee190fb9c60, type: 3}
