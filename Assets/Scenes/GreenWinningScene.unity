@@ -318,15 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 8300000, guid: 7709c780c38b0874097b47c7281ef3a3, type: 3}
-  - {fileID: 8300000, guid: 608e680b8a9c9ef45a22385ec15e1db1, type: 3}
-  - {fileID: 8300000, guid: 54c12960ffe58a3418dd2d348bdbd252, type: 3}
-  - {fileID: 8300000, guid: 48dc4c19a1904cb4d910f530ff06b585, type: 3}
-  - {fileID: 8300000, guid: 09b2265e14557e2449c1e64f2b11688f, type: 3}
-  - {fileID: 8300000, guid: 251880279ce286545a96961185958472, type: 3}
-  - {fileID: 8300000, guid: 0882ef4fe28e5014d93c7c85411ea673, type: 3}
-  - {fileID: 8300000, guid: a8fd1c704b8e39e4ebfcab3cc1749620, type: 3}
-  - {fileID: 8300000, guid: 241e003b404af8a45b7ccd028a395c5f, type: 3}
+  - {fileID: 8300000, guid: e7288e047d2fb6b4580c67474e274f61, type: 3}
 --- !u!82 &1309682568
 AudioSource:
   m_ObjectHideFlags: 0
