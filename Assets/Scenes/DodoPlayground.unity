@@ -1439,7 +1439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _green: 1
   _speed: GreenPlayerSpeed
-  _axis: GreenPlayerAxis
+  _right: GreenPlayerRight
+  _left: GreenPlayerLeft
   acceleration: 0.3
   rotation: 3
   maxSpeed: 0.25
@@ -1483,7 +1484,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _green: 0
   _speed: RedPlayerSpeed
-  _axis: RedPlayerAxis
+  _right: RedPlayerRight
+  _left: RedPlayerLeft
   acceleration: 0.3
   rotation: 3
   maxSpeed: 0.25
