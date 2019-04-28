@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 1662621583035046504}
   - component: {fileID: 1662621583035046505}
   - component: {fileID: 1913355107512133955}
+  - component: {fileID: 3536367599389217799}
   m_Layer: 0
   m_Name: RedJetParent
   m_TagString: Untagged
@@ -208,6 +209,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3536367599389217799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662621583035046506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9552c88fa426144afc4a738afa2cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1662621583470043288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -246,6 +259,76 @@ PrefabInstance:
       value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 1928971158763076660, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: JetWaterAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475054012680505581, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475054012680505581, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475054012680505581, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8104760181561470048, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 8104760181561470048, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 8104760181561470048, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001837575517410524, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001837575517410524, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001837575517410524, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550539017980233375, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550539017980233375, guid: a79a3ef722da5f34bba66fcf96385fb3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550539017980233375, guid: a79a3ef722da5f34bba66fcf96385fb3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 45
@@ -303,76 +386,6 @@ PrefabInstance:
     - target: {fileID: 938086148133704226, guid: a79a3ef722da5f34bba66fcf96385fb3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475054012680505581, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.38268343
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475054012680505581, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.92387956
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475054012680505581, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 8104760181561470048, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.38268343
-      objectReference: {fileID: 0}
-    - target: {fileID: 8104760181561470048, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.92387956
-      objectReference: {fileID: 0}
-    - target: {fileID: 8104760181561470048, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001837575517410524, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.38268343
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001837575517410524, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.92387956
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001837575517410524, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7550539017980233375, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.38268343
-      objectReference: {fileID: 0}
-    - target: {fileID: 7550539017980233375, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.92387956
-      objectReference: {fileID: 0}
-    - target: {fileID: 7550539017980233375, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_Name
-      value: JetWaterAnimation
-      objectReference: {fileID: 0}
-    - target: {fileID: 765448734880078834, guid: a79a3ef722da5f34bba66fcf96385fb3,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
