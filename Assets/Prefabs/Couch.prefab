@@ -405,8 +405,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3529435895175377595}
   - component: {fileID: 8792775915059846041}
-  - component: {fileID: 5393445498528108048}
-  - component: {fileID: 8946241140247135264}
+  - component: {fileID: 6414254363264666686}
+  - component: {fileID: 4413591400925799101}
   m_Layer: 0
   m_Name: Couch
   m_TagString: Trash
@@ -440,23 +440,36 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7978187656253312493}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8995d7ab1e151a445bdea68d8b321e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _wobbleSpeed: 4.5
-  _wobbleRange: 50
+  _wobbleSpeed: 7
+  _wobbleRange: 60
   _children:
   - {fileID: 6088195327958603898}
   - {fileID: 5340785079865718507}
   - {fileID: 8225814679633445557}
   - {fileID: 7335998644771815611}
   - {fileID: 2123112218111590994}
-  _movementSpeed: 0.02
+  _movementSpeed: 0.022
   _Spawner: {fileID: 0}
---- !u!61 &5393445498528108048
-BoxCollider2D:
+--- !u!114 &6414254363264666686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978187656253312493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef34d78d1211924188d3bc70589e937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _modifier: 0.2
+--- !u!58 &4413591400925799101
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -468,36 +481,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.042217895, y: 0.016519964}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.16665557, y: 0.13728678}
-  m_EdgeRadius: 0
---- !u!114 &8946241140247135264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7978187656253312493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 653affb23c7570846b203771f93ddb13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _wobbleSpeed: 4.5
-  _wobbleRange: 50
-  _children:
-  - {fileID: 6088195327958603898}
-  - {fileID: 5340785079865718507}
-  - {fileID: 8225814679633445557}
-  - {fileID: 7335998644771815611}
-  - {fileID: 2123112218111590994}
+  m_Radius: 0.05

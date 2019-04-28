@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class TrashPush : MonoBehaviour
 {
+    [SerializeField]
+    private float _modifier = 1;
+
     private Trash trash;
 
     private void Awake()
@@ -16,7 +19,7 @@ public class TrashPush : MonoBehaviour
         Vector2 contactPoint = collision.GetContact(0).point;
         Vector2 direction = new Vector2(transform.position.x, transform.position.y) - contactPoint;
         trash.enabled = false;
-        StartCoroutine(MoveTowards(direction));
+        StartCoroutine(MoveTowards(direction * _modifier));
     }
 
     private IEnumerator MoveTowards(Vector2 direction)
