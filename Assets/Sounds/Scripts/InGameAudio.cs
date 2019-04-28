@@ -7,10 +7,12 @@ public class InGameAudio : MonoBehaviour
     public AudioClip[] greenVoiceLines;
     public AudioClip[] greenCollisionSounds;
     public AudioClip[] greenStartSounds;
+    public AudioClip[] greenRound2Sounds;
 
     public AudioClip[] redVoiceLines;
     public AudioClip[] redCollisionSounds;
     public AudioClip[] redStartSounds;
+    public AudioClip[] redRound2Sounds;
 
 
 
@@ -24,8 +26,19 @@ public class InGameAudio : MonoBehaviour
     {
         source = GetComponent<AudioSource>();
         PlayStartSound();
+        Spawner.OnRoundChange += PlayRound2Sound;
         GreenEvent.OnCollision += PlayGreenSound;
         RedEvent.OnCollision += PlayRedSound;
+    }
+
+    void PlayRound2Sound()
+    {
+        if (Random.Range(0, 10) >= 5)
+            source.clip = greenRound2Sounds[Random.Range(0, greenRound2Sounds.Length)];
+        else
+            source.clip = redRound2Sounds[Random.Range(0, redRound2Sounds.Length)];
+
+        source.Play();
     }
 
     void PlayStartSound()

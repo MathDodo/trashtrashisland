@@ -865,9 +865,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f373ccc5939286b408bb2209369158bf, type: 3}
   - {fileID: 8300000, guid: 3f1f8d762ba8cd84c87dfd79ea71337c, type: 3}
   - {fileID: 8300000, guid: 6d195cb64317e8944824915e2bf29409, type: 3}
+  greenRound2Sounds:
+  - {fileID: 8300000, guid: 0cd8f3691e3224747ab43564aa9cb6db, type: 3}
+  - {fileID: 8300000, guid: f6229abb4445eb741885fb423f39f0ac, type: 3}
   redVoiceLines: []
   redCollisionSounds: []
   redStartSounds: []
+  redRound2Sounds: []
   cdTime: 5
 --- !u!82 &2146274668
 AudioSource:

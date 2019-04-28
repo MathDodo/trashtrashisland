@@ -33,6 +33,9 @@ public class Spawner : MonoBehaviour
 
     private Vector3 _startTrashCorner = new Vector3(-1.88f, 1.03f, 0);
 
+    public delegate void RoundChange();
+    public static event RoundChange OnRoundChange;
+
     private void Start()
     {
         PointsManager.Instance.Spawner = this;
@@ -102,6 +105,7 @@ public class Spawner : MonoBehaviour
 
         Instantiate(_greenJet, _greenCorner, Quaternion.identity);
         Instantiate(_redJet, _redCorner, Quaternion.identity);
+        OnRoundChange();
     }
 
     internal void Remove(Trash trash)
