@@ -108,6 +108,7 @@ public sealed class PointsManager : MonoBehaviour
 
             _points[0] = 0;
             _points[1] = 0;
+            _uiTexts = new List<Text>();
         }
     }
 
