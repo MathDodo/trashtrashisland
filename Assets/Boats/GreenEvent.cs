@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Event : MonoBehaviour
+public class GreenEvent : MonoBehaviour
 {
     public delegate void Collision();
     public static event Collision OnCollision;
