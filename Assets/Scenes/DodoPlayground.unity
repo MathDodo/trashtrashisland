@@ -2209,6 +2209,16 @@ PrefabInstance:
       propertyPath: m_ReferenceResolution.y
       value: 432
       objectReference: {fileID: 0}
+    - target: {fileID: 5691296262426331416, guid: 118a3e205f593a2468c992669844c687,
+        type: 3}
+      propertyPath: _green
+      value: 
+      objectReference: {fileID: 126518465}
+    - target: {fileID: 5691296262426331416, guid: 118a3e205f593a2468c992669844c687,
+        type: 3}
+      propertyPath: _red
+      value: 
+      objectReference: {fileID: 1306531754}
     m_RemovedComponents:
     - {fileID: 746051132297207771, guid: 118a3e205f593a2468c992669844c687, type: 3}
     - {fileID: 746051131893401862, guid: 118a3e205f593a2468c992669844c687, type: 3}
