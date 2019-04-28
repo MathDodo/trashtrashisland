@@ -19,6 +19,7 @@ public class TrashPush : MonoBehaviour
         Vector2 contactPoint = collision.GetContact(0).point;
         Vector2 direction = new Vector2(transform.position.x, transform.position.y) - contactPoint;
         trash.enabled = false;
+        trash._Move = false;
         StartCoroutine(MoveTowards(direction * _modifier));
     }
 
@@ -29,6 +30,7 @@ public class TrashPush : MonoBehaviour
             transform.Translate(new Vector3(direction.x, direction.y, 0) * Time.deltaTime);
             yield return null;
         }
+
         trash.SetStartPos(transform.position);
         trash.enabled = true;
     }

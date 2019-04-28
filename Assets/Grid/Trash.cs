@@ -22,6 +22,7 @@ public class Trash : MonoBehaviour
     private bool _positiveWobble = true;
     private Vector3 _startPos;
     public Spawner _Spawner;
+    public bool _Move = true;
 
     private void Start()
     {
@@ -41,13 +42,14 @@ public class Trash : MonoBehaviour
 
     private void Update()
     {
-        transform.position = _startPos + new Vector3(Mathf.Sin(Time.time + transform.position.x + transform.position.y) * _movementSpeed, 0.0f, 0.0f);
+        if (_Move)
+            transform.position = _startPos + new Vector3(Mathf.Sin(Time.time + transform.position.x + transform.position.y) * _movementSpeed, 0.0f, 0.0f);
 
         for (int i = 0; i < _children.Length; i++)
         {
             _children[i].Rotate(new Vector3(0, 0, _positiveWobble ? Time.deltaTime * _wobbleSpeed : Time.deltaTime * -_wobbleSpeed));
         }
-        if(_children.Length > 0)
+        if (_children.Length > 0)
         {
             if (_children[0].rotation.eulerAngles.z >= _startRotation + _wobbleRange || _children[0].rotation.eulerAngles.z <= _startRotation)
             {
@@ -55,7 +57,6 @@ public class Trash : MonoBehaviour
                 _wobbleSpeed = _wobbleSpeedTenth * 10;
             }
         }
-        
 
         _wobbleSpeed = Mathf.Lerp(_wobbleSpeed, _wobbleSpeedTenth, Time.deltaTime * .1f);
     }
