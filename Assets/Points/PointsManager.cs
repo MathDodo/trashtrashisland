@@ -38,6 +38,12 @@ public sealed class PointsManager : MonoBehaviour
 
     private float _defaultTime = .2f;
 
+    public delegate void RedFirst();
+    public static event RedFirst OnRedFirst;
+
+    public delegate void GreenFirst();
+    public static event GreenFirst OnGreenFirst;
+
     public void AddUIText(Text text)
     {
         _uiTexts.Add(text);
@@ -75,6 +81,9 @@ public sealed class PointsManager : MonoBehaviour
 
             _uiTexts[activePlayer].text = _points[activePlayer].ToString();
             _activePlayer = activePlayer;
+
+            if (_activePlayer == 0) OnGreenFirst();
+            else OnRedFirst();
 
             if (_points[_activePlayer] > 999)
                 _points[_activePlayer] = 999;
