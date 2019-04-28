@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 2146274668}
   - component: {fileID: 2146274667}
   m_Layer: 0
-  m_Name: SoundSystem
+  m_Name: CollisionSoundSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -848,8 +848,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a02931101a31c049a12444e7d1c185d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voiceLines: []
-  collisionSounds: []
+  greenVoiceLines:
+  - {fileID: 8300000, guid: 6b2679c5b6c23bc4fbcba36b942620b7, type: 3}
+  - {fileID: 8300000, guid: fa35be881ef7be54e91c9d8c0afbe118, type: 3}
+  - {fileID: 8300000, guid: 57c8ff70bf58bbb40919b1715a1e30b9, type: 3}
+  greenCollisionSounds:
+  - {fileID: 8300000, guid: 498983da7116ab0489c347847cb4180e, type: 3}
+  - {fileID: 8300000, guid: 9546b8663381d1d479f5221a459cca72, type: 3}
+  - {fileID: 8300000, guid: f936ab08cb3f1aa409252b62a56760fc, type: 3}
+  - {fileID: 8300000, guid: 81d9d3426f2a5434ab3906ec7aba0f2a, type: 3}
+  - {fileID: 8300000, guid: e9bc13e8d2c91ae4198af85c51ab1402, type: 3}
+  - {fileID: 8300000, guid: 9ac4167919164cc438e7181aa8b1b999, type: 3}
+  redVoiceLines: []
+  redCollisionSounds: []
+  cdTime: 5
 --- !u!82 &2146274668
 AudioSource:
   m_ObjectHideFlags: 0
