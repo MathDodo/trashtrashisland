@@ -21,4 +21,10 @@ public class MusicChange : MonoBehaviour
         source.clip = round2Music;
         source.Play();
     }
+
+    private void OnDestroy()
+    {
+        Spawner.OnRoundChange -= ChangeMusic;
+
+    }
 }

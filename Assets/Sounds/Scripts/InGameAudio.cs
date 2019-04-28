@@ -113,4 +113,13 @@ public class InGameAudio : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
     }
+
+    private void OnDestroy()
+    {
+        Spawner.OnRoundChange -= PlayRound2Sound;
+        GreenEvent.OnCollision -= PlayGreenSound;
+        RedEvent.OnCollision -= PlayRedSound;
+        PointsManager.OnGreenFirst -= PlayGreenFirst;
+        PointsManager.OnRedFirst -= PlayRedFirst;
+    }
 }
