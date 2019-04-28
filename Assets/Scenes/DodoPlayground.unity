@@ -1679,7 +1679,7 @@ GameObject:
   - component: {fileID: 2146274668}
   - component: {fileID: 2146274667}
   m_Layer: 0
-  m_Name: CollisionSoundSystem
+  m_Name: SoundSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1708,8 +1708,47 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 81d9d3426f2a5434ab3906ec7aba0f2a, type: 3}
   - {fileID: 8300000, guid: e9bc13e8d2c91ae4198af85c51ab1402, type: 3}
   - {fileID: 8300000, guid: 9ac4167919164cc438e7181aa8b1b999, type: 3}
-  redVoiceLines: []
-  redCollisionSounds: []
+  greenStartSounds:
+  - {fileID: 8300000, guid: ef78083f589e23e4ba9b7b85838985ae, type: 3}
+  - {fileID: 8300000, guid: 24d9328df28bebc4daace23c07f99e54, type: 3}
+  - {fileID: 8300000, guid: f373ccc5939286b408bb2209369158bf, type: 3}
+  - {fileID: 8300000, guid: 3f1f8d762ba8cd84c87dfd79ea71337c, type: 3}
+  - {fileID: 8300000, guid: 6d195cb64317e8944824915e2bf29409, type: 3}
+  greenRound2Sounds:
+  - {fileID: 8300000, guid: 0cd8f3691e3224747ab43564aa9cb6db, type: 3}
+  - {fileID: 8300000, guid: f6229abb4445eb741885fb423f39f0ac, type: 3}
+  greenFirstSounds:
+  - {fileID: 8300000, guid: e48ced9b066181f4390ccdf2e5237ddd, type: 3}
+  - {fileID: 8300000, guid: 4daf8aac5887e2d4bba679769d4dba7e, type: 3}
+  redVoiceLines:
+  - {fileID: 8300000, guid: 0d93dbe3d3d53144f993d0bf1e248033, type: 3}
+  - {fileID: 8300000, guid: 7885a6adfe1bee246a0b52b61ac755f7, type: 3}
+  - {fileID: 8300000, guid: c1c0ae3847e7272419faf81d79913816, type: 3}
+  - {fileID: 8300000, guid: 971e2c1e66b443c4bb0fa00ebc7b7ef0, type: 3}
+  - {fileID: 8300000, guid: a505c6839b8880845a91413ab4861e03, type: 3}
+  - {fileID: 8300000, guid: 049f4a3909ed92645949b0473dacef2f, type: 3}
+  redCollisionSounds:
+  - {fileID: 8300000, guid: 79dee5a453ed3644d8302ee3acc3922f, type: 3}
+  - {fileID: 8300000, guid: a0200fa5f5cdc704ca4a7a0ab1f7bf52, type: 3}
+  - {fileID: 8300000, guid: c0304523979ec42489e932d44efb60ac, type: 3}
+  - {fileID: 8300000, guid: 7bf2f05a75870bd498aa34d47060f4d2, type: 3}
+  - {fileID: 8300000, guid: 711c9b0a367a607479b5aca54017eafb, type: 3}
+  redStartSounds:
+  - {fileID: 8300000, guid: edd3eefad4a59fa428d29744801c793c, type: 3}
+  - {fileID: 8300000, guid: 7bec0b254578b7946a162281d134e792, type: 3}
+  - {fileID: 8300000, guid: 204369a07f3c53a459eb05872bae96ad, type: 3}
+  - {fileID: 8300000, guid: 1e4f75e9169cd294cbe83975bc8d87a6, type: 3}
+  redRound2Sounds:
+  - {fileID: 8300000, guid: 894859da152770e47938aeddcef47621, type: 3}
+  - {fileID: 8300000, guid: 5f48d3042c684c84e8fd416ba4e2df43, type: 3}
+  - {fileID: 8300000, guid: 3bb28e31bae4bfc4095520fcb2d85d78, type: 3}
+  - {fileID: 8300000, guid: bb6a7f0510c6ddf47a919342ee8dbf82, type: 3}
+  - {fileID: 8300000, guid: 362ed112005ce0246903241e4f0e25fa, type: 3}
+  redFirstSounds:
+  - {fileID: 8300000, guid: e6679c5b9c490df4e970344aaddfaf60, type: 3}
+  - {fileID: 8300000, guid: 5fc774f7aab81334b86642bff307f430, type: 3}
+  - {fileID: 8300000, guid: 0f3dc2e6e1355474782c5cd02564ad22, type: 3}
+  - {fileID: 8300000, guid: 725899aac1ca2414bb1ad8f28610c6d2, type: 3}
   cdTime: 5
 --- !u!82 &2146274668
 AudioSource:
