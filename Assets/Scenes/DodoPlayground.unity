@@ -663,13 +663,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _green: 1
+  _speed: GreenPlayerSpeed
+  _axis: GreenPlayerAxis
   acceleration: 0.3
   rotation: 3
   maxSpeed: 0.25
   friction: 0.99
-  left: 97
-  right: 100
-  forward: 119
   start: {fileID: 8300000, guid: 33659ca2381a92e4f8d60acae9e4c39d, type: 3}
   stop: {fileID: 8300000, guid: 9a5a0c6ea08788548b81fd0fd1358178, type: 3}
   loop: {fileID: 8300000, guid: 56f757ad0e425c24d92f801d3bbf766f, type: 3}
@@ -708,13 +707,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _green: 0
+  _speed: RedPlayerSpeed
+  _axis: RedPlayerAxis
   acceleration: 0.3
   rotation: 3
   maxSpeed: 0.25
   friction: 0.99
-  left: 276
-  right: 275
-  forward: 273
   start: {fileID: 8300000, guid: 33659ca2381a92e4f8d60acae9e4c39d, type: 3}
   stop: {fileID: 8300000, guid: 9a5a0c6ea08788548b81fd0fd1358178, type: 3}
   loop: {fileID: 8300000, guid: 56f757ad0e425c24d92f801d3bbf766f, type: 3}
